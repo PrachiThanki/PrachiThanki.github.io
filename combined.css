@@ -35,7 +35,7 @@ nav {
   font-family: 'Poppins', sans-serif;
   margin: 5px;
   font-size: small;
-  margin-top: 10px;
+  margin-top: 2pc;
     /* background-color:rgba(0, 0, 0, 0.5);*/
 
 }
@@ -81,7 +81,7 @@ nav {
 .darkened-image {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-    url("https://images.unsplash.com/photo-1581873372796-635b67ca2008?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    url("homeimage.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -407,19 +407,15 @@ i {
 .container {
 
   display: flex;
-  height: 80vh;
+  height: 110vh;
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* flex-direction:row; */
-  background-image: url("https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1381&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   justify-content: space-around;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.6)),
-    url("https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1381&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    url("review1.jpg");
   background-size: cover;
-
-  height: 100vh;
 }
 
 .image-random-user {
@@ -634,9 +630,10 @@ input[type=time] {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  background-image: url(second.jpg);
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.6)),
-    url("https://www.saporinostri.it/wp-content/uploads/2020/10/le-origini-della-pizza-napoletana-e1601990439881-1024x604.jpg");
+    url("footer1.jpg");
 }
 
 .flex-container>div {
